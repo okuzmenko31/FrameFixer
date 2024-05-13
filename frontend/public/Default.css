@@ -1,0 +1,292 @@
+* {
+    font-family: 'Inter';
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #000 0%, #020414 15%, #020414 85%, #000 100%);
+}
+
+#app {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    z-index: 1;
+    background: linear-gradient(180deg, #000 0%, #020414 15%, #020414 85%, #000 100%);
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-top {
+    margin-top: 0
+}
+
+.no-bottom {
+    margin-bottom: 0
+}
+
+.align_center_text {
+    text-align: center !important;
+}
+
+.start {
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+}
+
+.flex-block {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.baseline {
+    align-items: baseline;
+}
+
+.gp--15 {
+    gap: 15px;
+}
+
+.gp--50 {
+    gap: 50px !important;
+}
+
+.width--30 {
+    width: 30%;
+}
+
+.width--70 {
+    width: 70%;
+}
+
+.width--100 {
+    width: 100%;
+}
+
+.align_right_text {
+    text-align: right;
+}
+
+.align_left_text {
+    text-align: left;
+}
+
+.header_text {
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(-56deg, rgb(248, 248, 249), rgb(144, 145, 154));
+    -webkit-background-clip: text;
+}
+
+.few-padding {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.margtin--10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.width-auto {
+    width: auto !important;
+}
+
+.width--min {
+    width: fit-content;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.brand_text {
+    font-size: 20px;
+    margin: 0;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(10deg,#902EF2 0%,#FF62B7 100%);
+    -webkit-background-clip: text;
+}
+
+.small_text {
+    color: #AAABC5;
+}
+
+.fs--50 {
+    font-size: 50px;
+}
+
+.fs--40 {
+    font-size: 40px;
+}
+
+.fs--33 {
+    font-size: 33px;
+}
+
+
+.fs--25 {
+    font-size: 25px;
+}
+
+.fs--20 {
+    font-size: 20px;
+}
+
+.fs--15 {
+    font-size: 15px;
+}
+
+.fs--12 {
+    font-size: 12px;
+}
+
+.fs--10 {
+    font-size: 10px;
+}
+
+.fw--900 {
+    font-weight: 900
+}
+
+.fw--700 {
+    font-weight: 700
+}
+
+.fw--400 {
+    font-weight: 400
+}
+
+.fw--100 {
+    font-weight: 100
+}
+
+.blur-circle {
+    position: absolute;
+    border-radius: 50%;
+    -webkit-filter: blur(225px);
+    -moz-filter: blur(225px);
+    -o-filter: blur(225px);
+    -ms-filter: blur(225px);
+    will-change: transform;
+    width: 1000px;
+    height: 300px;
+}
+
+
+.blue-circle {
+    background-color: #abadff;
+}
+
+.green-circle {
+    background-color: #d091fa;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #020414;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #353535;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #333333;
+}
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+    .blur-circle {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .blur-circle {
+        width: 60%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .blur-circle {
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .blur-circle {
+        width: 50%;
+    }
+
+    .blur-circle {
+        -webkit-filter: blur(150px);
+        -moz-filter: blur(150px);
+        -o-filter: blur(150px);
+        -ms-filter: blur(150px);
+    }
+}
+
+@media (min-width: 651px) and (max-width: 767px) {
+    .blur-circle {
+        width: 50%;
+    }
+
+    .blur-circle {
+        -webkit-filter: blur(150px);
+        -moz-filter: blur(150px);
+        -o-filter: blur(150px);
+        -ms-filter: blur(150px);
+    }
+}
+
+@media (min-width: 481px) and (max-width: 650px) {
+    .blur-circle {
+        width: 50%;
+    }
+
+    .blur-circle {
+        -webkit-filter: blur(150px);
+        -moz-filter: blur(150px);
+        -o-filter: blur(150px);
+        -ms-filter: blur(150px);
+    }
+}
+
+@media (max-width: 480px) {
+    .blur-circle {
+        width: 90%;
+        -webkit-filter: blur(150px);
+        -moz-filter: blur(150px);
+        -o-filter: blur(150px);
+        -ms-filter: blur(150px);
+    }
+
+    .blue-circle {
+        background-color: #e052f4;
+    }
+}
